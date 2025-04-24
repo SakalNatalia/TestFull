@@ -1,0 +1,28 @@
+$primary-color: #d26a5c;
+$accent-color: #f8f9fa;
+
+.navbar {
+  background-color: $accent-color;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+
+  .nav-link {
+    text-transform: uppercase;
+    color: #333;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: flex;  
+    justify-content: center;
+
+    &.router-link-active {
+      border: 2px solid white;
+      background-color: $accent-color;
+    }
+  }
+}
+
+.navbar-collapse  {
+    display: flex;
+    justify-content: left;
+}   

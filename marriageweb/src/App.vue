@@ -1,44 +1,22 @@
 <template>
    <div id="app">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container">
-        <router-link class="navbar-brand" to="/">My Marriage Site</router-link>
-        <div class="collapse navbar-collapse">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <router-link class="nav-link" to="/">Home</router-link>
-            </li>
-            <li class="nav-item">
-              <router-link class="nav-link" to="/story">Story</router-link>
-            </li>
-            <li class="nav-item">
-              <router-link class="nav-link" to="/wedding">Wedding</router-link>
-            </li>
-            <li class="nav-item">
-              <router-link class="nav-link" to="/gallery">Gallery</router-link>
-            </li>
-            <li class="nav-item">
-              <router-link class="nav-link" to="/pages">Pages</router-link>
-            </li>
-            <li class="nav-item">
-              <router-link class="nav-link" to="/rsvp">RSVP</router-link>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <NavBar />
     <router-view></router-view>
   </div>
 </template>
 
 <script>
-
+import NavBar from './components/NavBar.vue';
 
 export default {
   name: 'App',
+  components: {
+    NavBar
+  }
 
 }
 </script>
+
 
 <style>
 #app {
