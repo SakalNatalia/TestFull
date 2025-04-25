@@ -1,6 +1,6 @@
 <template>
    <div id="app">
-    <NavBar />
+    <NavBar :isRsvp="$route.path === '/rsvp'" />
     <router-view></router-view>
     <FooTer></FooTer>
   </div>

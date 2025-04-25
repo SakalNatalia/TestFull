@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-expand-lg">
+    <nav :class="['navbar', 'navbar-expand-lg', isRsvp ? 'navbar-light' : 'navbar-dark']">
       <div class="container">
         <a class="navbar-brand"></a>
         <div class="collapse navbar-collapse">
@@ -18,7 +18,13 @@
   
   <script>
   export default {
-    name: 'NavBar'
+    name: 'NavBar',
+    props: {
+      isRsvp: {
+        type: Boolean,
+        default: false
+      }
+    }
   }
   </script>
   
@@ -28,5 +34,12 @@
     font-size: 2rem;
     color: #d26a5c;
   }
+  .navbar-light .nav-link {
+  color: black;
+}
+
+.navbar-dark .nav-link {
+  color: white;
+}
   </style>
   
