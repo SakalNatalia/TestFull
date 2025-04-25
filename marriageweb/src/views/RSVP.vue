@@ -7,7 +7,6 @@
   <div class="container mt-4">
     <form @submit.prevent="submitForm">
   <div class="row">
-    <!-- Left Column for Name, Email, and Attendance -->
     <div class="col-md-6">
       <!-- Name Field -->
       <div class="form-group">
