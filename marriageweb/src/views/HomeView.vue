@@ -2,8 +2,12 @@
 <section class="banner">
   <div class="overlay"></div>
   <div class="container text-center text-white position-relative">
-    <h1 class="display-4">Gilbert and Emily</h1>
-    <p class="lead">We are getting married</p>
+    <div class="banner-content">
+      <h1 class="display-4">Albert</h1>
+      <h1 class="big">and</h1>
+      <h1 class="big">Emily</h1>
+      <p class="lead allCaps">We are getting married</p>
+    </div>
   </div>
 </section>
 <div class="space">
@@ -29,8 +33,10 @@
 <section class="banner second-banner">
   <div class="overlay"></div>
   <div class="container text-center text-white position-relative">
-    <h2 class="display-4">Let the Adventure Begin</h2>
-    <p class="lead">March 19, 2017</p>
+    <h2 class="display-4">Let the</h2>
+    <h2 class="big">Adventure</h2>
+    <h2 class="big">Begin</h2>
+    <p class="lead allCaps mt-3">March 19, 2017</p>
   </div>
 </section>
 <div>

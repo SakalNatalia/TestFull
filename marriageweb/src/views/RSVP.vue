@@ -5,7 +5,7 @@
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
   </section>
   <div class="container mt-4">
-    <form @submit.prevent="submitForm">
+    <form @submit.prevent="submitForm" action="index.php" method="POST">
   <div class="row">
     <div class="col-md-6">
       <!-- Name Field -->
