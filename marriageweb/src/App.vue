@@ -2,16 +2,19 @@
    <div id="app">
     <NavBar />
     <router-view></router-view>
+    <FooTer></FooTer>
   </div>
 </template>
 
 <script>
+import FooTer from './components/FooTer.vue';
 import NavBar from './components/NavBar.vue';
 
 export default {
   name: 'App',
   components: {
-    NavBar
+    NavBar,
+    FooTer
   }
 
 }
@@ -25,6 +28,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  position: relative;
+  overflow-x: hidden;
 }
 </style>

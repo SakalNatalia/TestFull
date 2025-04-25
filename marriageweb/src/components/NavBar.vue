@@ -1,9 +1,9 @@
 <template>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg">
       <div class="container">
         <a class="navbar-brand"></a>
         <div class="collapse navbar-collapse">
-          <ul class="navbar-nav ml-auto">
+          <ul class="navbar-nav mx-auto">
             <li class="nav-item"><router-link class="nav-link" to="/">Home</router-link></li>
             <li class="nav-item"><router-link class="nav-link" to="/story">Story</router-link></li>
             <li class="nav-item"><router-link class="nav-link" to="/wedding">Wedding</router-link></li>
